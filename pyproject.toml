@@ -20,6 +20,7 @@ addopts = "--cov-report term-missing --strict-markers"
 python_files = ["tests.py", "test_*.py", "*_tests.py"]
 
 [tool.poetry]
+authors = ["Carrick <carrick@mail.com>"]
 description = "FastAPI and Docker"
 name = "fastapi-docker"
 version = "2.0.0"
